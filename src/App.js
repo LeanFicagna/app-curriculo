@@ -13,10 +13,7 @@ function App() {
         Alert.alert('Meu linkedin', 'https://linkedin.com/in/leanFicagna')
         break;
       case 'github':
-        Alert.alert('Meu linkedin', 'https://linkedin.com/in/leanFicagna')
-        break;
-      case 'facebook':
-        Alert.alert('Meu linkedin', 'https://linkedin.com/in/leanFicagna')
+        Alert.alert('Meu Github', 'https://github.com/LeanFicagna')
         break;
     }
 
@@ -32,9 +29,6 @@ function App() {
           <View style={style.reder_sociais}>
             <TouchableOpacity onPress={() => handleRedeSocial('github')}>
               <Icon name="github" size={30} />
-            </TouchableOpacity>
-            <TouchableOpacity onPress={() => handleRedeSocial('facebook')}>
-              <Icon name="facebook" size={30} />
             </TouchableOpacity>
             <TouchableOpacity onPress={() => handleRedeSocial('linkedin')}>
               <Icon name="linkedin" size={30} />
